@@ -1,7 +1,7 @@
 import { createTransferCheckedInstruction, getAssociatedTokenAddress, getMint } from "@solana/spl-token"
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base"
 import { clusterApiUrl, Connection, PublicKey, Transaction, SystemProgram, LAMPORTS_PER_SOL } from "@solana/web3.js"
-import { NextApiRequest, NextApiResponse } from "next"
+//import { NextApiRequest, NextApiResponse } from "next"
 // import { shopAddress, usdcAddress } from "../../lib/addresses"
 import calculatePrice from "../../components/calculatePrice"
 
