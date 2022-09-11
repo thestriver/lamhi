@@ -25,7 +25,7 @@ async function post(
     const amount = calculatePrice(req.query)
     if (amount.toNumber() === 0) {
       res.status(400).json({ error: "Can't checkout with charge of 0" })
-      return
+      return;
     }
 
     // We pass the reference to use in the query
