@@ -32,14 +32,14 @@ async function post(
     const { reference } = req.query
     if (!reference) {
       res.status(400).json({ error: "No reference provided" })
-      return
+      return;
     }
 
     // We pass the buyer's public key in JSON body
     const { account } = req.body
     if (!account) {
       res.status(400).json({ error: "No account provided" })
-      return
+      return;
     }
     const buyerPublicKey = new PublicKey(account)
     const shopPublicKey = shopAddress
@@ -58,7 +58,7 @@ async function post(
     // Get a recent blockhash to include in the transaction
     const { blockhash } = await (connection.getLatestBlockhash('finalized'))
 
-    const transaction = new Transaction({
+    const transaction = new Transaction({ //deprecated
       recentBlockhash: blockhash,
       // The buyer pays the transaction fee
       feePayer: buyerPublicKey,
