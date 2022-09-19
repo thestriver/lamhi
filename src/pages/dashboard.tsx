@@ -110,10 +110,8 @@ export default function DashboardPage(){
                 </div>
                 </div>
 
-                {/* Fatures */}
                 { showSend ? <SendMoney submitTarget='/send' /> : null}
                 { showRecieve ? <RecieveMoney submitTarget={undefined} /> : null }
-                {/* <TestSend /> */}
                 
 
             </div>
