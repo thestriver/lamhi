@@ -55,7 +55,7 @@ export default function Checkout() {
   useEffect(() => {
     const interval = setInterval(async () => {
       try {
-        // Check if there is any transaction for the reference
+        // Check if there is any transaction for the reference with extra details
         const signatureInfo = await findReference(connection, reference, { finality: 'confirmed' })
         // Validate that the transaction has the expected recipient, amount and SPL token
         await validateTransfer(
