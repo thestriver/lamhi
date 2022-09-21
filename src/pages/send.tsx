@@ -28,7 +28,6 @@ export default function Checkout() {
   const endpoint = clusterApiUrl(network)
   const connection = new Connection(endpoint)
 
-  // Solana Pay transfer params
   const urlParams = {
     recipient: recieverAddress,
     splToken: usdcAddress,
