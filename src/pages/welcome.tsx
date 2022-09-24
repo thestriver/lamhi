@@ -13,6 +13,7 @@ export default function WelcomePage(){
 			router.push('/dashboard');
 			return;
 		}		
+    //add an extra useefect check
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [publicKey]);
 
