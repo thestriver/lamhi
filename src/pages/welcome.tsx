@@ -31,7 +31,6 @@ export default function WelcomePage(){
             <div className="mt-16 w-full md:mt-0 md:w-2/5">
                 <div className="relative z-10 h-auto overflow-hidden rounded-lg border-b-2 border-gray-300 bg-white p-8 py-10 px-7 shadow-2xl">
                 <div className="block">
-                    {/* <button className="w-full rounded-lg bg-indigo-600 px-3 py-4 font-medium text-white mb-3">Log In With Solana</button> */}
                     <WalletMultiButton className='!bg-indigo-600 w-full rounded-lg hover:scale-105 text-center' />
                 </div>
                 </div>
