@@ -24,7 +24,7 @@ export default function Products({ submitTarget}) {
                         value={address}
                         onChange={e => {
                             setAddress(e.target.value);
-                            // localStorage.setItem(e.target.value, String(true))
+                            // localStorage.setItem(e.target.value, String(true)) replace with a more robust solution
                         }}
                         className="shadow appearance-none border rounded w-full py-2 mt-1 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         placeholder="USDC address"
