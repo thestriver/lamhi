@@ -1,8 +1,8 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from 'next/router'
 
 export default function Products({ submitTarget}) {
-  const formRef = useRef(null);
+  // const formRef = useRef(null);
   const [number, setNumber] = useState(0)
   const [address, setAddress] = useState("")
   const router = useRouter();

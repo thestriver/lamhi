@@ -1,5 +1,5 @@
 import BigNumber from "bignumber.js";
-import { ParsedUrlQuery } from "querystring";
+// import { ParsedUrlQuery } from "querystring";
 
 export default function calculatePrice(query) {
   let amount = new BigNumber(0);
