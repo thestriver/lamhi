@@ -35,6 +35,7 @@
               <div className="group relative col-span-12 flex h-full flex-col items-start justify-end overflow-hidden rounded-xl sm:col-span-12 sm:flex-row xl:col-span-4 xl:flex-col">
                 <div className="block h-96 w-full transform bg-cover bg-center transition duration-300 ease-in-out hover:scale-110" 
                 style={{ backgroundImage: `url(${'https://cdn.devdojo.com/images/may2021/gbc.jpg'})`}}></div>
+                {/* replace bove with a downloaded public asset e.g `url(./assets/download.png)` */}
                 <div className="relative z-20 flex h-auto w-full flex-col items-start justify-center border-t-0 border-yellow-200 bg-yellow-400 py-8 px-7 text-white sm:h-full xl:h-auto">
                   <div className="absolute top-0 -mt-3.5 inline-block rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase text-yellow-400 sm:relative sm:mb-5 xl:absolute xl:mb-0">
                     Seamless</div>
