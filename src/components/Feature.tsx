@@ -20,7 +20,8 @@
       
               <div className="group relative col-span-12 flex h-full flex-col items-start justify-end overflow-hidden rounded-xl md:col-span-6 xl:col-span-4">
                 <div className="block h-96 w-full transform bg-cover bg-center transition duration-300 ease-in-out hover:scale-110" 
-                style={{backgroundImage: `url(${'https://cdn.devdojo.com/images/may2021/orange.jpg'})`}}> </div>
+                style={{backgroundImage: `url(${'https://cdn.devdojo.com/images/may2021/orange.jpg'})`}}> </div> 
+                {/* replace bove with a downloaded public asset e.g `url(./assets/download.png)` */}
                 <div className="relative z-20 h-auto w-full border-t-0 border-yellow-200 bg-blue-400 py-8 px-7 text-white">
                   <div className="absolute top-0 -mt-3.5 inline-block rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase text-blue-500">
                     No Hassles</div>
