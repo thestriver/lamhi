@@ -1,12 +1,11 @@
 import { useRouter } from 'next/router'
 import { useWallet } from '@solana/wallet-adapter-react'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 export default function Hero(){
-    const { publicKey } = useWallet()
+    // const { publicKey } = useWallet()
     const router = useRouter()
     return (
-        // Navbar
        <>
         <section className="body-font relative w-full text-gray-700">
             <div className="container mx-auto flex max-w-7xl flex-col flex-wrap items-center justify-between py-5 md:flex-row">
@@ -48,6 +47,7 @@ export default function Hero(){
                 alt='hero'
                 layout='fill'
                 /> */}
+                {/* refactor with next/img and downloaded  */}
               </div>
             </div>
           </div>
