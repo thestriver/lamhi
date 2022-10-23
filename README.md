@@ -2,6 +2,7 @@ Lamhi ⚡ - Send and Recieve Digital Money Across Africa
 Powered by Solana, Lamhi helps you conveniently send and recieve money in an instant ⚡ without any hassle. You only need to simply connect your Wallet to get started.
 
 ## Getting Started
+Built with Typescript, Next.js (React), Solana Pay and Stripe 
 
 Clone and run the development server:
 
