@@ -1,5 +1,6 @@
 import { useRouter } from 'next/router'
 import { useWallet } from '@solana/wallet-adapter-react'
+import Image from 'next/image'
 
 export default function Hero(){
     const { publicKey } = useWallet()
@@ -42,6 +43,11 @@ export default function Hero(){
             <div className="w-full md:w-1/2">
               <div className="h-auto w-full overflow-hidden rounded-md shadow-xl sm:rounded-xl">
                 <img src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg" />
+                {/* <Image 
+                src="https://cdn.devdojo.com/images/november2020/hero-image.jpeg"
+                alt='hero'
+                layout='fill'
+                /> */}
               </div>
             </div>
           </div>
