@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+const Home: React.FC = () =>  {
   return (
     <div className="bg-gray-900">
       <Head>
@@ -23,3 +23,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home
