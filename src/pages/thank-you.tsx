@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 export default function ThankYouPage() {
-    const [redirectSeconds, setRedirectSeconds] = useState(7);
+    const [redirectSeconds, setRedirectSeconds] = useState<number>(7);
     const router = useRouter()
     useEffect(() => {
         
