@@ -7,7 +7,7 @@ export default function Products({ submitTarget}) {
   const [address, setAddress] = useState("")
   const router = useRouter();
   
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: React.SyntheticEvent<HTMLFormElement>) => {
     event.preventDefault();
     router.push(`/send/?amount=${number}&address=${address}`); 
   }

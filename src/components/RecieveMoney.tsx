@@ -7,7 +7,7 @@ export default function RecieveMoney({ submitTarget}) {
   const [address, setAddress] = useState("")
   const router = useRouter();
   
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: React.SyntheticEvent<HTMLFormElement>) => {
     event.preventDefault();
     router.push(`/transaction/?amount=${number}&address=${address}`); 
     // router.push(`/transaction/?amount=${number}`); 
