@@ -6,8 +6,8 @@ import SendMoney from "../components/SendMoney";
 import RecieveMoney from "../components/RecieveMoney";
 
 export default function DashboardPage(){
-    const [showSend, setShowSend] = useState(false)
-    const [showRecieve, setShowRecieve] = useState(false)
+    const [showSend, setShowSend] = useState<boolean>(false)
+    const [showRecieve, setShowRecieve] = useState<boolean>(false)
     const { publicKey } = useWallet();
     const router = useRouter();
     
@@ -112,7 +112,7 @@ export default function DashboardPage(){
 
                 {/* Fatures */}
                 { showSend ? <SendMoney submitTarget='/send' /> : null}
-                { showRecieve ? <RecieveMoney /> : null }
+                { showRecieve ? <RecieveMoney submitTarget={undefined} /> : null }
                 {/* <TestSend /> */}
                 
 
