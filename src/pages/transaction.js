@@ -51,8 +51,8 @@ export default function Checkout() {
     navigator.clipboard.writeText(url)
     const urlParams = {
       link: new URL(apiUrl),
-      label: "Lamhi",
-      message: "Thanks for using lamhi!",
+      label: "BlinkPay",
+      message: "Thanks for using BlinkPay!",
     }
     const solanaUrl = encodeURL(urlParams)
     const qr = createQR(solanaUrl, 512, 'transparent')

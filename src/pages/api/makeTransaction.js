@@ -11,7 +11,7 @@ const usdcAddress = new PublicKey('Gh9ZwEmdLJ8DscKNTkTqPbNwLNNBjuSzaG9Vp2KGtKJr'
 
 function get(res) {
     res.status(200).json({
-      label: "Lamhi ⚡",
+      label: "BlinkPay ⚡",
       icon: "https://freesvg.org/img/spite_lightning.png",
     })
 }
@@ -104,7 +104,7 @@ async function post(
     // Return the serialized transaction
     res.status(200).json({
       transaction: base64,
-      message: "Thanks for using Lamhi! ⚡",
+      message: "Thanks for using BlinkPay! ⚡",
     })
   } catch (err) {
     console.error(err);

@@ -34,7 +34,7 @@ export default function Checkout() {
     amount,
     reference,
     label: `Send money to ${router.query.address}`,
-    message: "Thanks for using Lamhi! 💖",
+    message: "Thanks for using BlinkPay! 💖",
   }
 
   // Encode the params into the format shown

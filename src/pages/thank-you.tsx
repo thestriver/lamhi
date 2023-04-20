@@ -28,7 +28,7 @@ export default function ThankYouPage() {
      <> 
         <div className='mx-auto px-20 h-screen justify-center'>
 			<h1>Your transaction has been processed! 
-				Thank you so much for using Lamhi.</h1>
+				Thank you so much for using BlinkPay.</h1>
 			<Image
 				src='/thank-you.jpg'
 				alt="thank you"

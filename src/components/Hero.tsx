@@ -9,7 +9,7 @@ export default function Hero(){
        <>
         <section className="body-font relative w-full text-gray-700">
             <div className="container mx-auto flex max-w-7xl flex-col flex-wrap items-center justify-between py-5 md:flex-row">
-            <a onClick={() => router.push('/')} className="relative md:px-16 flex w-auto select-none items-center text-2xl font-extrabold leading-none text-white">Lamhi ⚡</a>
+            <a onClick={() => router.push('/')} className="relative md:px-16 flex w-auto select-none items-center text-2xl font-extrabold leading-none text-white">BlinkPay ⚡</a>
             </div>
         </section>
         <section className="pt-32 md:px-0">
@@ -22,7 +22,7 @@ export default function Hero(){
                   <span className="block xl:inline">Across Africa</span>
                 </h1>
                 <p className="mx-auto text-base text-gray-400 sm:max-w-md md:max-w-3xl lg:text-xl">
-                  Powered by Solana, Lamhi helps you conveniently send and recieve money in an 
+                  Powered by Solana, BlinkPay helps you conveniently send and recieve money in an 
                   instant ⚡ without any hassle. 
                   You only need to simply connect your Wallet to get started.
                   

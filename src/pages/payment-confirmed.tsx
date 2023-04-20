@@ -28,14 +28,14 @@ export default function ThankYouPage() {
      <> 
         <div className='mx-auto px-20'>
 			<h1>Your transaction has been processed! 
-				Thank you so much for using Lamhi.</h1>
+				Thank you so much for using BlinkPay.</h1>
 			<Image
 				src='/thank-you.jpg'
 				alt="thank you"
 				width={500}
 				height={500}
 			/>
-            <p>Lamhi helps you conveniently send and recieve money in an 
+            <p>BlinkPay helps you conveniently send and recieve money in an 
                   instant ⚡ without any hassle.</p>
 			<p>You can either click on the button to visit our homepage or it will automatically redirect in {redirectSeconds} seconds</p>
 			<button type="button" onClick={() => router.push('/dashboard')}>
